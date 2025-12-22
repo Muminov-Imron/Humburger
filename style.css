@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #222831;
+  padding: 8px;
+}
+
+.ul-hed {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  list-style-type: none;
+}
+
+nav {
+  display: none;
+}
+
+.hed-a {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.btn-hid {
+  border: none;
+  padding: 12px 24px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: center;
+  border: 1px solid #fafafa;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #fafafa;
+}
+
+.btn-hidd {
+  border: none;
+  padding: 12px 24px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #008a90;
+  color: #fafafa;
+}
+
+.wrapper-hed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-hed {
+  width: 119px;
+  height: 24px;
+}
+
+.btn-hed {
+  border: none;
+  background-color: #222831;
+  background-image: url("./Button.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 43px;
+}
+
+.wrapper-sk {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+}
+
+.text-box {
+  padding: 120px 0;
+  max-width: 592px;
+}
+
+.name {
+  font-size: 60px;
+  color: #222831;
+  font-weight: 700;
+  font-style: Bold;
+  line-height: 104%;
+  letter-spacing: -2%;
+  margin: 0;
+}
+
+.text-head {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #818181;
+  margin: 0;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+.btn-head {
+  max-width: 360px;
+  width: 100%;
+  border: none;
+  background-color: #008a90;
+  padding: 16px 0px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 4px;
+  max-width: 360px;
+  width: 100%;
+  color: #ffffff;
+}
+
+.img-sk {
+  width: 100%;
+  object-fit: cover;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 834px) {
+  .wrapper-sk {
+    align-items: center;
+    grid-template-columns: minmax(369px, 592px) minmax(417px, 640px);
+    grid-template-rows: auto;
+  }
+  nav {
+    display: block;
+  }
+
+  .btn-hed {
+    display: none;
+  }
+}
