@@ -24,7 +24,7 @@ header {
   list-style-type: none;
 }
 
-nav {
+.navbar {
   display: none;
 }
 
@@ -143,7 +143,7 @@ nav {
     grid-template-columns: minmax(369px, 592px) minmax(417px, 640px);
     grid-template-rows: auto;
   }
-  nav {
+  .navbar {
     display: block;
   }
 
