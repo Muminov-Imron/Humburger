@@ -2,8 +2,8 @@ const hamburgBtn = document.getElementById("btn-hed");
 const navbar = document.getElementById("navbar");
 
 btnhed.addEventListener("click", () => {
-  navbar.classList.toggle("open");
-  btnhed.classList.toggle("close-btn");
+  navbar.classList.toggle("ul-hed");
+  btnhed.classList.toggle("hed-li");
 });
 
 // DOM document object model
