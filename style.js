@@ -1,11 +1,10 @@
 const hamburgBtn = document.getElementById("btn-hed");
 const navbar = document.getElementById("navbar");
 
-btn -
-  hed.addEventListener("click", () => {
-    navbar.classList.toggle("open");
-    btn - hed.classList.toggle("close-btn");
-  });
+btnhed.addEventListener("click", () => {
+  navbar.classList.toggle("open");
+  btnhed.classList.toggle("close-btn");
+});
 
 // DOM document object model
 
