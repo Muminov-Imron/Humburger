@@ -71,7 +71,7 @@ header {
   height: 24px;
 }
 
-.btnhed {
+.btn-hed {
   border: none;
   background-color: #222831;
   background-image: url("./Button.svg");
@@ -147,7 +147,7 @@ header {
     display: block;
   }
 
-  .btnhed {
+  .btn-hed {
     display: none;
   }
 }
